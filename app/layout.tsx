@@ -18,6 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ru" className="bg-background">
       <head>
+        <meta name="yandex-verification" content="8de38115df42d0a9" />
         <title>Ля Казино — La Casino официальный сайт: играть онлайн, рабочее зеркало и бонусы</title>
         <meta
           name="description"
